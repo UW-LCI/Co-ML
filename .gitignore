@@ -1,0 +1,26 @@
+.DS_Store
+*.swp
+build
+*.pyc
+*~
+
+# USER DATA: By seemingly popular demand, user state is not checked in to highleveltools by default
+*.xcuserdatad
+
+# Anyone who wants their personal user state to be checked in can add a bang (!) line here for their specific userdatad directory.
+# !<name>.xcuserdatad
+
+# Even those people should not have .xcuserstate checked in, though.
+UserInterfaceState.xcuserstate
+
+# Generated profile data
+default.profraw
+
+# For packages
+*.swiftpm/config/registries.json
+*.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+*.netrc
+/Packages
+xcuserdata/
+xcshareddata/
+DerivedData/

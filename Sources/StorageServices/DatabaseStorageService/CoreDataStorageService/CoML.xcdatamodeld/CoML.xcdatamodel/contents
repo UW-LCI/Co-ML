@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="SHLabel" representedClassName="SHLabel" syncable="YES" codeGenerationType="class">
+        <attribute name="creationDate" optional="YES" attributeType="Date" allowsCloudEncryption="YES" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String" allowsCloudEncryption="YES"/>
+        <attribute name="labelString" optional="YES" attributeType="String" allowsCloudEncryption="YES"/>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SHSingleLabelClassifierProject" inverseName="labels" inverseEntity="SHSingleLabelClassifierProject"/>
+        <relationship name="samples" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SHSingleLabelSample" inverseName="label" inverseEntity="SHSingleLabelSample"/>
+    </entity>
+    <entity name="SHSingleLabelClassifierProject" representedClassName="SHSingleLabelClassifierProject" syncable="YES" codeGenerationType="class">
+        <attribute name="creationDate" optional="YES" attributeType="Date" allowsCloudEncryption="YES" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String" defaultValueString="" allowsCloudEncryption="YES" preserveAfterDeletion="YES"/>
+        <attribute name="title" attributeType="String" defaultValueString="" allowsCloudEncryption="YES"/>
+        <relationship name="labels" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SHLabel" inverseName="project" inverseEntity="SHLabel"/>
+    </entity>
+    <entity name="SHSingleLabelSample" representedClassName="SHSingleLabelSample" syncable="YES" codeGenerationType="class">
+        <attribute name="creationDate" optional="YES" attributeType="Date" allowsCloudEncryption="YES" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String" allowsCloudEncryption="YES"/>
+        <attribute name="modificationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="purpose" optional="YES" attributeType="String" allowsCloudEncryption="YES"/>
+        <attribute name="sampleData" optional="YES" attributeType="Binary" allowsCloudEncryption="YES"/>
+        <attribute name="sampleDataType" optional="YES" attributeType="String" allowsCloudEncryption="YES"/>
+        <relationship name="label" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SHLabel" inverseName="samples" inverseEntity="SHLabel"/>
+    </entity>
+</model>

@@ -1,0 +1,384 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "Bundle display name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "cho-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "chr-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "cic-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Co-ML"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "mi-NZ" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co-ML"
+          }
+        }
+      }
+    },
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "cho-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "chr-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "cic-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "CoMLApp"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "mi-NZ" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoMLApp"
+          }
+        }
+      }
+    },
+    "NSCameraUsageDescription" : {
+      "comment" : "Privacy - Camera Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يتيح لك ذلك التقاط صور لتدريب نموذج للتعلم الآلي."
+          }
+        },
+        "cho-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hattak piha tok model kamanvpisa hattak alikmvha."
+          }
+        },
+        "chr-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ᎯᎠ ᏫᏓᏅᏫᏍᏓᏕᏨᎲ ᏗᎾᏬᏂᏍᎪᎢ ᎤᏛᏒᏅᎢᏘ ᎠᏛᏅᎢᏍᏙᏗ ᎠᎵᏏᏙᎲᏍᎬᎢ."
+          }
+        },
+        "cic-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hosh chi holitohbi akocha chi usht bvlhli akihomo hosh ish illaboli."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiermit kannst du Fotos machen, um ein maschinelles Lernmodell zu trainieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This lets you take photos to train a machine learning model."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esto te permite tomar fotos para entrenar un modelo de aprendizaje automático."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cela vous permet de prendre des photos afin d’entraîner un modèle d’apprentissage automatique."
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ligeann sé seo duit grianghraif a thógáil chun samhail measínfhoghlama a thraenáil."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "यह आपको machine learning model को train करने के लिए photos लेने देता है।"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dengan aplikasi ini, Anda dapat mengambil foto untuk melatih model pembelajaran mesin."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consente di scattare foto per addestrare un modello di apprendimento automatico."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진을 촬영하여 머신 러닝 모델을 학습시킬 수 있습니다."
+          }
+        },
+        "mi-NZ" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mā tēnei ka taea e koe te tango whakaahua hei whakangungu i tētahi tauira mātai mokowā."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Isso permite que você tire fotos para treinar um modelo de aprendizado de máquina."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Этот инструмент позволяет делать фотографии для обучения модели машинного обучения."
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "இது இயந்திர கற்றல் மாதிரிக்குப் பயிற்சியளிப்பதற்காகப் புகைப்படங்களை எடுக்க உங்களை அனுமதிக்கிறது."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "За допомогою цієї програми ви можете робити фотографії, щоб тренувати модель машинного навчання."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều này sẽ cho phép bạn chụp ảnh để đào tạo mô hình máy học."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这款 app 可让你通过拍摄照片来训练机器学习模型。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}

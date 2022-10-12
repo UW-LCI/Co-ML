@@ -1,0 +1,200 @@
+DEFINE SCHEMA
+
+    // An Image Classifier label that describes a collection of training or test data. For example, Dogs or Cats.
+    RECORD TYPE CD_SHLabel (
+
+        // Date and time a label was created by a user.
+        CD_creationDate ENCRYPTED TIMESTAMP,
+
+        // A custom field managed by CoreData, which specifies the name of the entity.
+        CD_entityName   STRING,
+
+        // Randomly generated unique ID (uuid) associated with this label.
+        CD_id           ENCRYPTED STRING,
+
+        // Text string for label in user project.
+        CD_labelString  ENCRYPTED STRING,
+
+        // A custom field managed by CoreData.
+        CD_moveReceipt  BYTES,
+
+        // String for the project the label is associated with.
+        CD_project      STRING,
+
+        // Automatically created by the system and set when record has been created
+        "___createTime" TIMESTAMP,
+
+        // Automatically created by the system and set when record has been created
+        "___createdBy"  REFERENCE,
+
+        // Automatically created by the system and set when record has been modified
+        "___etag"       STRING,
+
+        // Automatically created by the system and set when record has been modified
+        "___modTime"    TIMESTAMP,
+
+        // Automatically created by the system and set when record has been modified
+        "___modifiedBy" REFERENCE,
+
+        // Record identifier. “record ID” can be tied to anything like a movie, person or developer
+        "___recordID"   REFERENCE QUERYABLE,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );
+
+    // A project containing Image Classifier labels and samples.
+    RECORD TYPE CD_SHSingleLabelClassifierProject (
+
+        // Date and time a project was created.
+        CD_creationDate ENCRYPTED TIMESTAMP,
+
+        // A custom field managed by CoreData, which specifies the name of the entity.
+        CD_entityName   STRING,
+
+        // Randomly generated unique ID (uuid) associated with this project.
+        CD_id           ENCRYPTED STRING,
+
+        // A custom field managed by CoreData.
+        CD_moveReceipt  BYTES,
+
+        // String for the title of project.
+        CD_title        ENCRYPTED STRING,
+
+        // Automatically created by the system and set when record has been created
+        "___createTime" TIMESTAMP,
+
+        // Automatically created by the system and set when record has been created
+        "___createdBy"  REFERENCE,
+
+        // Automatically created by the system and set when record has been modified
+        "___etag"       STRING,
+
+        // Automatically created by the system and set when record has been modified
+        "___modTime"    TIMESTAMP,
+
+        // Automatically created by the system and set when record has been modified
+        "___modifiedBy" REFERENCE,
+
+        // Record identifier. “record ID” can be tied to anything like a movie, person or developer
+        "___recordID"   REFERENCE QUERYABLE,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );
+
+    // JPG-encoded image data representing images corresponding to an image classifier label. Each image may be used as either training or test data.
+    RECORD TYPE CD_SHSingleLabelSample (
+
+        // Date and time the sample was created.
+        CD_creationDate       ENCRYPTED TIMESTAMP,
+
+        // A custom field managed by CoreData, which specifies the name of the entity.
+        CD_entityName         STRING,
+
+        // Randomly generated unique ID (uuid) associated with this sample.
+        CD_id                 ENCRYPTED STRING,
+
+        // String of the label that this sample is associated with.
+        CD_label              STRING,
+
+        // The most recent date of sample organization or otherwise when the sample was captured.
+        CD_modificationDate   TIMESTAMP,
+
+        // A custom field managed by CoreData.
+        CD_moveReceipt        BYTES,
+
+        // This is a binary indicator of whether the data is for testing or training the model. This is determined based on how the user adds the sample to their project.
+        CD_purpose            ENCRYPTED STRING,
+
+        // Raw low-resolution JPG or PNG image data used for ML training or testing.
+        CD_sampleData         ENCRYPTED BYTES,
+
+        // The data type for this sample.
+        CD_sampleDataType     ENCRYPTED STRING,
+
+        // Raw low-resolution JPG or PNG image data used for ML training or testing.
+        CD_sampleData_ckAsset ASSET,
+
+        // Automatically created by the system and set when record has been created
+        "___createTime"       TIMESTAMP,
+
+        // Automatically created by the system and set when record has been created
+        "___createdBy"        REFERENCE,
+
+        // Automatically created by the system and set when record has been modified
+        "___etag"             STRING,
+
+        // Automatically created by the system and set when record has been modified
+        "___modTime"          TIMESTAMP,
+
+        // Automatically created by the system and set when record has been modified
+        "___modifiedBy"       REFERENCE,
+
+        // Record identifier. “record ID” can be tied to anything like a movie, person or developer
+        "___recordID"         REFERENCE QUERYABLE,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );
+
+    // Automatically created by the system when the container is first initialized.
+    RECORD TYPE Users (
+
+        // Automatically created by the system and set when record has been created
+        "___createTime" TIMESTAMP,
+
+        // Automatically created by the system and set when record has been created
+        "___createdBy"  REFERENCE,
+
+        // Automatically created by the system and set when record has been modified
+        "___etag"       STRING,
+
+        // Automatically created by the system and set when record has been modified
+        "___modTime"    TIMESTAMP,
+
+        // Automatically created by the system and set when record has been modified
+        "___modifiedBy" REFERENCE,
+
+        // Record identifier. “record ID” can be tied to any kind of record
+        "___recordID"   REFERENCE QUERYABLE,
+
+        // Automatically created by the system and set when a user associated security roles has been modified
+        roles           LIST<INT64>,
+        GRANT WRITE TO "_creator",
+        GRANT READ TO "_world"
+    );
+
+    // Automatically created by the system and manages a collection of shared records
+    RECORD TYPE "cloudkit.share" (
+
+        // Automatically created by the system and set when record has been created
+        "___createTime"               TIMESTAMP,
+
+        // Automatically created by the system and set when record has been created
+        "___createdBy"                REFERENCE,
+
+        // Automatically created by the system and set when record has been modified
+        "___etag"                     STRING,
+
+        // Automatically created by the system and set when record has been modified
+        "___modTime"                  TIMESTAMP,
+
+        // Automatically created by the system and set when record has been modified
+        "___modifiedBy"               REFERENCE,
+
+        // Record identifier. “record ID” can be tied to anything like a movie, person or developer
+        "___recordID"                 REFERENCE QUERYABLE,
+
+        // Share''s thumbnail image
+        "cloudkit.thumbnailImageData" BYTES,
+
+        // Share''s title
+        "cloudkit.title"              STRING,
+
+        // Share''s type identifier in UTI format
+        "cloudkit.type"               STRING,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );
