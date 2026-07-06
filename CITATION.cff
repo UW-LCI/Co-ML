@@ -29,7 +29,7 @@ authors:
 - family-names: "Ralston"
   given-names: "Stuart"
   orcid: "https://orcid.org/0009-0000-2645-9459"
-title: "CoMLET"
+title: "Co-ML"
 version: 1.0.0
-date-released: 2026-04-20
-url: "https://github.com/apple/ml-comlet"
+date-released: 2026-07-06
+url: "https://github.com/UW-LCI/Co-ML"
