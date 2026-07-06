@@ -1,6 +1,6 @@
-# CoMLET: Collaborative Machine Learning Exploration Tool
+# Co-ML: Collaborative Machine Learning Exploration Tool
 
-CoMLET is a research tool for iPad that enables groups of people to collaboratively create image classification machine learning (ML) models. It supports an end-to-end, iterative ML modeling workflow that includes data collection and annotation, model training, and multiple methods for model testing. Users can collaborate on ML modeling projects, working together to build datasets that reflect varieties of life experiences and circumstances. Users' project data automatically sync between devices using [end-to-end encryption via Apple CloudKit](https://developer.apple.com/documentation/cloudkit/encrypting-user-data). Training happens on-device using [Create ML](https://developer.apple.com/documentation/createml/).
+Co-ML is a research tool for iPad that enables groups of people to collaboratively create image classification machine learning (ML) models. It supports an end-to-end, iterative ML modeling workflow that includes data collection and annotation, model training, and multiple methods for model testing. Users can collaborate on ML modeling projects, working together to build datasets that reflect varieties of life experiences and circumstances. Users' project data automatically sync between devices using [end-to-end encryption via Apple CloudKit](https://developer.apple.com/documentation/cloudkit/encrypting-user-data). Training happens on-device using [Create ML](https://developer.apple.com/documentation/createml/).
 
 This code accompanies the following research papers:
 
@@ -40,19 +40,15 @@ As this code is the result of a concluded research project, Apple is unlikely to
 
 To cite this tool, please use:
 
-> Tseng, T., Shapiro, R. B., Harper, D., Brown, E., Kery, M. B., Smith, G., Navas, N., Durant, J., Beason, J., Lu, E., & Ralston, S. (2026). *CoMLET: Collaborative Machine Learning Exploration Tool.* [https://github.com/apple/ml-comlet](https://github.com/apple/ml-comlet).
+> Tseng, T., Shapiro, R. B., Harper, D., Brown, E., Kery, M. B., Smith, G., Navas, N., Durant, J., Beason, J., Lu, E., & Ralston, S. (2026). *Co-ML: Collaborative Machine Learning tool.* [https://github.com/UW-LCI/Co-ML](https://github.com/UW-LCI/Co-ML).
 
 As BibTeX:
 
 ```bibtex
 @misc{Tseng2026comlet,
   author = {Tiffany Tseng and R. Benjamin Shapiro and Dave Harper and Exandra Brown and Mary Beth Kery and Griffin Smith and Nadiya Navas and John Durant and Jazbo Beason and Elaine Lu and Stuart Ralston},
-  title = {CoMLET},
+  title = {Co-ML},
   year  = {2026},
-  url   = {https://github.com/apple/ml-comlet},
+  url   = {https://github.com/UW-LCI/Co-ML},
 }
 ```
-
-## License
-
-This code is released under the [Apple Sample Code License](LICENSE).
