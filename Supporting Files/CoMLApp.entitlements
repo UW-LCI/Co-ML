@@ -8,7 +8,7 @@
 	<string>Development</string>
 	<key>com.apple.developer.icloud-container-identifiers</key>
 	<array>
-		<string>iCloud.org.apple.oss.coml</string>
+		<string>iCloud.edu.uw.lci.coml</string>
 	</array>
 	<key>com.apple.developer.icloud-services</key>
 	<array>

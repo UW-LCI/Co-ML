@@ -539,7 +539,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(MARKETING_VERSION).9999.Debug";
 				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
-				DEVELOPMENT_TEAM = QRN233GCQ8;
+				DEVELOPMENT_TEAM = VZ785DT2K3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Supporting Files/CoMLApp-Info.plist";
@@ -555,7 +555,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.8;
-				PRODUCT_BUNDLE_IDENTIFIER = org.apple.oss.coml;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.lci.coml;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -576,7 +576,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(MARKETING_VERSION).$(RC_ProjectSourceVersion).$(RC_ProjectBuildVersion)";
 				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
-				DEVELOPMENT_TEAM = QRN233GCQ8;
+				DEVELOPMENT_TEAM = VZ785DT2K3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Supporting Files/CoMLApp-Info.plist";
@@ -592,7 +592,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.8;
-				PRODUCT_BUNDLE_IDENTIFIER = org.apple.oss.coml;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.lci.coml;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
