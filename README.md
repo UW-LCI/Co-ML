@@ -33,8 +33,7 @@ This code accompanies the following research papers:
 
 ## Contributing
 
-We welcome community-led forks of this project.
-As this code is the result of a concluded research project, Apple is unlikely to release further updates to it.
+Apple is unlikely to release further updates to the [upstream repo](https://github.com/apple/ml-comlet) for this project, nor will Apple accept Pull Requests. We invite community contributions here instead.
 
 ## How to Cite this Code
 
